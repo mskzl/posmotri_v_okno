@@ -232,8 +232,6 @@ fieldset {
   margin: 0 2px 10px 1px;
 }
 
-/*Состояние элементов формы и кнопок*/
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
