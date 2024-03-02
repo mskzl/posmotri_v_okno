@@ -16,6 +16,7 @@ html {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  padding: 0;
 }
 
 h1,
@@ -88,13 +89,14 @@ ol {
   position: relative;
   min-width: 711px;
   min-height: 386px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .result__video {
   height: 386px;
   width: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 .content__video-card {
@@ -130,6 +132,7 @@ ol {
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  margin-bottom: 4px;
 }
 
 .title {
@@ -163,7 +166,6 @@ ol {
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
-  max-height: 65px;
 }
 
 fieldset {
@@ -200,7 +202,7 @@ fieldset {
 .search-form__checkbox-list {
   display: flex;
   gap: 10px;
-  margin: 2px 2px;
+  margin: 2px;
 }
 .search-form__pseudo-checkbox {
   width: 19px;
@@ -249,8 +251,12 @@ fieldset {
   outline: none;
 }
 
+.search-form__textfield:focus {
+  outline: none;
+}
+
 .search-form__label:hover {
-  text-decoration: underline;
+  text-decoration: none;
   text-underline-offset: 4px;
 }
 
