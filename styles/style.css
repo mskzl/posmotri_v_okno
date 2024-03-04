@@ -71,7 +71,7 @@ ol {
   position: relative;
   overflow: auto;
   max-height: 298px;
-  min-width: 100%;
+  max-width: 415px;
 }
 
 .content__details {
